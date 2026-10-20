@@ -7,7 +7,7 @@
 
 ## Overview
 
-**VideoLens AI** is a production-grade annotation and evaluation prototype built for multimodal AI teams. It pairs video playback and frame inspection with structured human annotation workflows and rigorous claim-by-claim evaluation of AI-generated video descriptions.
+**VideoLens AI** is a human-in-the-loop video annotation and AI-generated description evaluation prototype built with Python and Streamlit. It combines frame inspection, structured annotation workflows, claim-by-claim verification, quality metrics, and JSON/CSV exports.
 
 Rather than making unsubstantiated claims about automated visual truth, VideoLens AI establishes a disciplined **human-in-the-loop (HITL) protocol**: reviewers ground every annotation and caption claim directly in observable video evidence.
 
@@ -70,14 +70,11 @@ Annotation records and description reviews are generated locally when the app is
 Open PowerShell or Command Prompt in the project folder:
 
 ```powershell
-# Create a virtual environment (optional but recommended)
+# Create a virtual environment
 py -m venv .venv
-
-# Activate the virtual environment
 .\.venv\Scripts\Activate.ps1
-# Or in Command Prompt: .venv\Scripts\activate.bat
 
-# Upgrade pip and install dependencies
+# Install dependencies
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
