@@ -1,0 +1,22 @@
+
+__pycache__/
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+*.pyc
+.pytest_cache/
+CACHEDIR.TAG
+
+# User-generated annotation records and exports
+data/annotations.json
+data/description_reviews.json
+*.csv
+
+# Video files (protects private or confidential clips from accidental git commits)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+!data/demo_clip.mp4
