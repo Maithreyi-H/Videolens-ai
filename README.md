@@ -56,12 +56,9 @@ VideoLens_AI/
 ├── tests/
 │   └── test_core.py        # 12 automated unit tests (claim parsing, I/O, video decoding)
 └── data/
-    ├── .gitkeep            # Directory tracking
-    ├── annotations.json    # Local persistent annotation records
-    ├── description_reviews.json # Saved AI caption evaluation records
     └── demo_clip.mp4       # Synthetic test video clip for validation
 ```
-
+Annotation records and description reviews are generated locally when the app is used and are excluded from version control by default.
 ---
 
 ## Quickstart Guide (Windows 10/11)
